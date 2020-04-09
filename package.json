@@ -1,0 +1,28 @@
+{
+  "name": "workouttracker",
+  "version": "1.0.0",
+  "description": "An app for a user to log their daily workout(s).",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkwoka/WorkoutTracker.git"
+  },
+  "author": "kkwoka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkwoka/WorkoutTracker/issues"
+  },
+  "homepage": "https://github.com/kkwoka/WorkoutTracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "logger": "0.0.1",
+    "mongojs": "^3.1.0",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  }
+}
