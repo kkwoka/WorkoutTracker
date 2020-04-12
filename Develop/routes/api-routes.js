@@ -7,11 +7,16 @@ let Workout = require("../models/workoutModel");
 module.exports = function(app) {
 
 
-  // app.put("/api/workouts/:id", (req, res) => {
-  //     Workout.create(req.body);
-  //     console.log(req.body)
-  //     res.json();
-  //   });
+  // add exercise route in api.js --> /api/workouts/:id (Method: PUT)
+  app.put("/api/workouts/:id", (req, res) => {
+    let addWorkout = [
+      {
+        day: new Date().setDate(new Date().getDate()-10),
+        exercises: [ req.body ]
+      }
+    ];
+      Workout.collection.insert(addWorkout);
+    });
     
   // app.get("/api/workouts", (req, res) => {
   //   Workout.find({}, (err, data) => {
@@ -25,7 +30,7 @@ module.exports = function(app) {
 
   app.get("/api/workouts/range", (req, res) => {
     Workout.find({}).then(data => {
-        console.log(JSON.stringify(data));
+        // console.log(JSON.stringify(data));
         res.json(data)
     }).catch(err => {
       res.send(err);
