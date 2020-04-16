@@ -1,12 +1,56 @@
-# WorkoutTracker
+
+  # Workout Tracker
+
+Github Code: https://github.com/kkwoka/WorkoutTracker
+
+Heroku Website: https://glacial-ocean-77985.herokuapp.com/
 
 
-When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+  ## Description
+  ​
+  This is an app for a user that wants to track their daily workouts. The user may add resistance and cardio workouts for their current day. The user may also update a previous workout for that day.
+  ​
+  ## Table of Contents 
+  * [GIF](#GIF)
 
-The user should be able to:
+  * [Installation](#installation)
+  ​
+  * [Usage](#usage)
+  ​
+  * [License](#license)
+  ​
+  * [Contributing](#contributing)
+  ​
+  * [Tests](#tests)
+  ​
+  * [Questions](#questions)
+  ​
+  ## GIF
+  ![gif]("Develop/public/test3.gif")
 
-Add exercises to a previous workout plan.
-
-Add new exercises to a new workout plan.
-
-View multiple the combined weight of multiple exercises on the stats page.
+  ## Installation
+  ​
+  To install necessary dependencies, run the following command:
+  ```
+  npm i
+  ```
+  ## Usage
+  ​
+  node.js, mongodb/mongoose
+    
+  ## Contributing
+  ​
+  mongodb
+  ​
+  ## Tests
+  ​
+  To run tests, run the following command:
+  ```
+  node server.js
+  ```
+ 
+  ## Questions
+  ​
+  <img src="https://avatars3.githubusercontent.com/u/57764303?v=4" alt="avatar" style="border-radius: 16px" width="30" />
+  ​
+  If you have any questions about the repo, contact [kkwoka](https://github.com/kkwoka).
