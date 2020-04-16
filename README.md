@@ -26,7 +26,7 @@ Heroku Website: https://glacial-ocean-77985.herokuapp.com/
   * [Questions](#questions)
   ​
   ## GIF
-  ![gif]("Develop/public/test3.gif")
+  ![WorkoutTrackerGif](test3.gif)
 
   ## Installation
   ​
