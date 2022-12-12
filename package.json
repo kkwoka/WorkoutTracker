@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/kkwoka/WorkoutTracker#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "logger": "0.0.1",
     "mongojs": "^3.1.0",
     "mongoose": "^5.9.7",
